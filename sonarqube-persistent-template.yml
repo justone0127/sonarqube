@@ -45,7 +45,7 @@ objects:
     resources:
       requests:
         storage: '${POSTGRES_PERSISTENT_VOLUME_CLAIM_SIZE}'
-- apiVersion: v1
+- apiVersion: apps.openshift.io/v1
   kind: DeploymentConfig
   metadata:
     annotations:
